@@ -1,0 +1,35 @@
+git init -> Inicializar repositorio en el directorio actual
+
+git status -s -> Estados del archivo/archivos
+
+??: No hay seguimiento
+M: Modificado
+A: Seguimiento
+
+Git add "nombreArchivo" -> Agrega el archivo a seguimiento
+
+git commit -m -> Agrega descripcion del commit en ""  y realiza la captura de los archivos
+
+*una vez modificado un archivo, se repite el proceso de add y el commit
+
+git log --oneline -> Muestra el historial de las capturas de los ficheros por su codigos alfanumericos
+
+git reset "codeAlfa#" -> Regresa al commit descrito en el comando
+
+git add . -> Almacena todas los ficheros con sus respectivas capturas
+
+git commit -am -> Add y Commit combinados
+
+git commit -amend -> Abre editor Vim, Se puede editar la descripcion de los commits
+
+*dentro de Vim:
+:i Editar 
+Esc para abrir linea para editar
+Enter Guardar
+:wp Guardar y salir
+
+rm -rf .git -> Eliminar repositorio local
+
+
+
+
