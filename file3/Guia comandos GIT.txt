@@ -30,6 +30,9 @@ Enter Guardar
 
 rm -rf .git -> Eliminar repositorio local
 
+git pull -> Traer cambios de GitHub a repositorio local
 
+git tag nombreTagVersion -m "Descripcion"
 
+git push --tags -> Subir tags a GitHub
 
