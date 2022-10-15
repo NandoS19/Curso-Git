@@ -36,3 +36,9 @@ git tag nombreTagVersion -m "Descripcion"
 
 git push --tags -> Subir tags a GitHub
 
+git branch nombreRama -> Crear una rama
+
+git branch -> Listado de ramas y en la que me encuentro actualmente
+
+git checkout nombreRama -> Me cambio a la rama descrita en el comando
+
