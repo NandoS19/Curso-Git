@@ -42,3 +42,4 @@ git branch -> Listado de ramas y en la que me encuentro actualmente
 
 git checkout nombreRama -> Me cambio a la rama descrita en el comando
 
+git merge RamaPrincipal -> Fusiona la rama actual con la principal (verificar que no exista conflictos en los archivos)
